@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.csproj": {}
+  },
+  "projects": {
+    "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.csproj",
+        "projectName": "EPM_Availability_All_Endpoints_1",
+        "projectPath": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.csproj",
+        "packagesPath": "C:\\Users\\gabrielbo\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabrielbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Skyline.DataMiner.Dev.Automation": {
+              "target": "Package",
+              "version": "[10.2.0.25, )"
+            },
+            "Skyline.DataMiner.Files.SLAnalyticsTypes": {
+              "target": "Package",
+              "version": "[10.4.10, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
