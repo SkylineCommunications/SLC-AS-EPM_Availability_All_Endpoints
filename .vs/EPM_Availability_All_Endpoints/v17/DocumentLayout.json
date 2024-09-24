@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|EPM_Availability_All_Endpoints{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|EPM_Availability_All_Endpoints{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|solutionrelative:EPM_Availability_All_Endpoints.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{532C37D0-EDE4-4C81-A9D7-A221C889465F}|EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.csproj|c:\\git\\github\\slc-as-epm_availability_all_endpoints\\epm_availability_all_endpoints_1\\epm_availability_all_endpoints_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{532C37D0-EDE4-4C81-A9D7-A221C889465F}|EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.csproj|solutionrelative:epm_availability_all_endpoints_1\\epm_availability_all_endpoints_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|EPM_Availability_All_Endpoints{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|EPM_Availability_All_Endpoints{EF68B219-5E84-4ACF-AE45-7F6719E441F9}|solutionrelative:EPM_Availability_All_Endpoints.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,26 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EPM_Availability_All_Endpoints.xml",
               "DocumentMoniker": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints.xml",
               "RelativeDocumentMoniker": "EPM_Availability_All_Endpoints.xml",
               "ToolTip": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints.xml",
               "RelativeToolTip": "EPM_Availability_All_Endpoints.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-09-23T13:15:35.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EPM_Availability_All_Endpoints_1.cs",
               "DocumentMoniker": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.cs",
               "RelativeDocumentMoniker": "EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.cs",
               "ToolTip": "C:\\GIT\\GitHub\\SLC-AS-EPM_Availability_All_Endpoints\\EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.cs",
               "RelativeToolTip": "EPM_Availability_All_Endpoints_1\\EPM_Availability_All_Endpoints_1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "ViewState": "AQIAACMBAAAAAAAAAAAIwEQBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T13:12:16.13Z",
               "EditorCaption": ""

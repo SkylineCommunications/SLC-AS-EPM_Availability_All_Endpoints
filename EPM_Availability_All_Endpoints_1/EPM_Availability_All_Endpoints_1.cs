@@ -84,43 +84,6 @@ namespace EPM_Availability_All_Endpoints_1
             {
                 HasNextPage = false,
             };
-
-            //try
-            //{
-            //    listGqiRows.Clear();
-
-            //    if (iterator == allCollectors.Count)
-            //    {
-            //        return new GQIPage(listGqiRows.ToArray())
-            //        {
-            //            HasNextPage = false,
-            //        };
-            //    }
-            //    else
-            //    {
-            //        var collectorRows = GetTable(allCollectors[iterator], 2000, new List<string>
-            //        {
-            //            systemTypeFilter,
-            //        });
-
-            //        Dictionary<string, EndpointOverview> endpointRows = ExtractCollectorData(collectorRows);
-            //        AddAllCableModems(endpointRows);
-
-            //        iterator++;
-
-            //        return new GQIPage(listGqiRows.ToArray())
-            //        {
-            //            HasNextPage = true,
-            //        };
-            //    }
-            //}
-            //catch
-            //{
-            //    return new GQIPage(listGqiRows.ToArray())
-            //    {
-            //        HasNextPage = false,
-            //    };
-            //}
         }
 
         public OnArgumentsProcessedOutputArgs OnArgumentsProcessed(OnArgumentsProcessedInputArgs args)
@@ -163,6 +126,10 @@ namespace EPM_Availability_All_Endpoints_1
         {
             switch (systemType)
             {
+                case "Customer":
+                    return String.Format("forceFullTable=true;fullFilter=(2010=={0})", systemName);
+                case "Vendor":
+                    return String.Format("forceFullTable=true;fullFilter=(2011=={0})", systemName);
                 case "Network":
                     return String.Format("forceFullTable=true;fullFilter=(2016=={0})", systemName);
                 case "Region":
