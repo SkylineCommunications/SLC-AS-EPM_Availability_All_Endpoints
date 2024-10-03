@@ -265,17 +265,17 @@ namespace EPM_Availability_All_Endpoints_1
                     new GQICell
                     {
                         Value = oltRow.Jitter,
-                        DisplayValue = ParseDoubleValue(oltRow.Jitter, "%"),
+                        DisplayValue = ParseDoubleValue(oltRow.Jitter, "ms"),
                     },
                     new GQICell
                     {
                         Value = oltRow.Latency,
-                        DisplayValue = ParseDoubleValue(oltRow.Latency, "%"),
+                        DisplayValue = ParseDoubleValue(oltRow.Latency, "ms"),
                     },
                     new GQICell
                     {
                         Value = oltRow.Rtt,
-                        DisplayValue = ParseDoubleValue(oltRow.Rtt, "%"),
+                        DisplayValue = ParseDoubleValue(oltRow.Rtt, "ms"),
                     },
                 };
 
