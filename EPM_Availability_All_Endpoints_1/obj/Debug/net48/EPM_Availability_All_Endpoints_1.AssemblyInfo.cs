@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© Skyline Communications")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af969de4f1c57e62cedd540fa21ea4d1f35706e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6edf0d478fb5fdfc1eff1bf54318ae71ba1092f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPM_Availability_All_Endpoints_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPM_Availability_All_Endpoints_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

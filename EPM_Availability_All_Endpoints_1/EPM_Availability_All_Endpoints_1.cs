@@ -68,8 +68,6 @@ namespace EPM_Availability_All_Endpoints_1
             {
                 new GQIStringColumn("Endpoint"),
                 new GQIStringColumn("IP"),
-                new GQIStringColumn("Customer Name"),
-                new GQIStringColumn("Vendor Name"),
                 new GQIDoubleColumn("Packet Loss Rate"),
                 new GQIDoubleColumn("Jitter"),
                 new GQIDoubleColumn("Latency"),
@@ -130,15 +128,15 @@ namespace EPM_Availability_All_Endpoints_1
                     return String.Format("forceFullTable=true;fullFilter=(2010=={0})", systemName);
                 case "Vendor":
                     return String.Format("forceFullTable=true;fullFilter=(2011=={0})", systemName);
-                case "Network":
-                    return String.Format("forceFullTable=true;fullFilter=(2016=={0})", systemName);
                 case "Region":
+                    return String.Format("forceFullTable=true;fullFilter=(2016=={0})", systemName);
+                case "City":
                     return String.Format("forceFullTable=true;fullFilter=(2015=={0})", systemName);
-                case "Sub-Region":
+                case "Neighborhood":
                     return String.Format("forceFullTable=true;fullFilter=(2014=={0})", systemName);
-                case "Hub":
+                case "Street":
                     return String.Format("forceFullTable=true;fullFilter=(2013=={0})", systemName);
-                case "Station":
+                case "Household":
                     return String.Format("forceFullTable=true;fullFilter=(2012=={0})", systemName);
                 default:
                     return String.Empty;
@@ -248,14 +246,6 @@ namespace EPM_Availability_All_Endpoints_1
                     new GQICell
                     {
                         Value = oltRow.Ip,
-                    },
-                    new GQICell
-                    {
-                        Value = ParseStringValue(oltRow.CustomerName),
-                    },
-                    new GQICell
-                    {
-                        Value = ParseStringValue(oltRow.VendorName),
                     },
                     new GQICell
                     {
